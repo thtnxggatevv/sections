@@ -1,33 +1,63 @@
 html {
   background-color: #eee9de;
   box-sizing: border-box;
-  margin: 1.5rem;
-}
-
-p {
   text-align: left;
   font-family: Lato, sans-serif;
   font-style: normal;
-  display: inline-block;
-  color: #666;
-  vertical-align: middle;
   color: #333;
   line-height: 1.5;
 }
 
 h2{
-  text-align: center;
-  display: inline-block;
-  font-family: Lato, sans-serif;
-  font-weight: bold;
-  vertical-align: middle;
   margin-top: 0;
 }
 
 img{
   width: 100%;
-  max-width: 25em;
   display: block;
-  margin: 0 auto 1rem;
-  padding-top: 1rem;
+}
+
+.img{
+  display: inline-block;
+  max-width: 25em;
+  vertical-align: middle;
+  padding: 1em;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 .5em 1em;
+  max-width: 20em;
+  padding: .4em .75em .5em;
+  background-color: #eee9de;
+  border: 3px solid #333;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.btn:hover {
+  color: #666:
+}
+
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  text-align: left;
+  margin: 0;
+}
+
+.text {
+  display: inline-block;
+  max-width: 25em;
+  padding: 1em;
+  vertical-align: middle;
+  text-align: left;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
 }
